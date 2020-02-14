@@ -6,18 +6,21 @@ Script requires python3.6 or newer, access to magenta db and google creds that h
 
 ### setting up virtual environment and installing packages
 
-After cloning this repo on a machine in Basefarm, follow these steps
-(see official documentation and installation and user guide here: https://virtualenv.pypa.io/en/latest/)
+After cloning this repo on a machine in Basefarm, make sure there is an up-to-date version of pip installed:
+``pip3 install --upgrade --user pip``
+
+
 1. make sure virtualenv is installed for your current user:
-``$ pip install --user virtualenv``
+``$ pip3 install --user virtualenv``
 2. create virtual environment:
 ``$ virtualenv venv``
 3. activate virtual environment:
 ``$ source venv/bin/activate``
 4. installing required packages:
-``$ pip install -r requirements.txt``
+``$ pip3 install -r requirements.txt``
 
 To exit virtual environment simply use ``$ deactivate``
+(see official documentation and installation/user guide for virtualenv here: https://virtualenv.pypa.io/en/latest/)
 
 ### setting up mysql databases
 in order to connect to magenta, specify user, password, host and server in ``mysql_client/config.ini``
