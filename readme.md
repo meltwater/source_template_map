@@ -25,5 +25,8 @@ To exit virtual environment simply use ``$ deactivate``
 ### setting up mysql databases
 in order to connect to magenta, specify user, password, host and server in ``mysql_client/config.ini``
 
-### google api
+### setting up google api
 in order to authenticate with google a secret is required, please reach out to moritz.lorey@meltwater.com or dave.parker@meltwater.com
+
+## execution
+Script can be executed with ``python3 source_template_map.py``
