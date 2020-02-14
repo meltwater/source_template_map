@@ -9,7 +9,7 @@ Script requires python3.6 or newer, access to magenta db and google creds that h
 After cloning this repo on a machine in Basefarm, follow these steps
 (see official documentation and installation and user guide here: https://virtualenv.pypa.io/en/latest/)
 1. make sure virtualenv is installed for your current user:
-``$ pip3 install --user virtualenv``
+``$ pip install --user virtualenv``
 2. create virtual environment:
 ``$ virtualenv venv``
 3. activate virtual environment:
