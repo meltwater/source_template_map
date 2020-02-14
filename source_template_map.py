@@ -1,4 +1,4 @@
-from google_api.google_api_client import overwrite_rows
+from google.google_api_client import overwrite_rows
 from mysql_client.sql_client import sql_worker
 import datetime
 import time
