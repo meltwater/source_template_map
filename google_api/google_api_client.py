@@ -23,7 +23,7 @@ def google_creds():
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
         else:
-            flow = InstalledAppFlow.from_client_secrets_file('client_secret.json', SCOPES)
+            flow = InstalledAppFlow.from_client_secrets_file('./google_api/client_secret.json', SCOPES)
             creds = flow.run_console()
         with open('token.pickle', 'wb') as token:
             pickle.dump(creds, token)
